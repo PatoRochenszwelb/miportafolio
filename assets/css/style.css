@@ -1,0 +1,116 @@
+:root {
+  --fuentePrincipal: 'Lato', sans-serif;
+  --fuenteSecundaria: 'Oswald', sans-serif;
+  --ColorPurple: #660066;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--fuentePrincipal);
+  font-weight: 400;
+}
+
+/* Header */
+.site-header nav a.navbar-brand {
+  font-size: 40px;
+}
+
+/* Hero */
+
+#yo-soy {
+  height: 893px;
+}
+p.titulo-yo {
+  font-size: 50px;
+
+}
+
+.hero-image {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 737px
+  }
+  
+  /* Place text in the middle of the image */
+  .hero-text {
+    color: white;
+  }
+
+/* Sobre Mi */
+
+#sobre-mi {
+padding-left: 200px;
+padding-right: 200px;
+}
+
+#sobre-mi h2 {
+  font-size: 25px;
+  line-height: 50px;
+}
+
+#sobre-mi p {
+  font-family: var(--fuenteSecundaria);
+  font-weight: 200;
+  line-height: 40px;
+}
+
+.bg-purple {
+    background: var(--ColorPurple)!important;
+}
+
+
+
+.separador {
+    border-bottom: 2px solid #000;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.separadora {
+    border-bottom: 2px solid #fff;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.iconos i {
+  color: #660066;
+}
+
+.icons-footer i {
+  color: #fff;
+}
+
+.hero-image {
+  background-image: url(../img/bg_hero.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 54.063rem;
+  padding: 3.75rem 0 5rem 0;
+
+}
+
+.centrado {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-10%, -150%);
+  font-size: 44px;
+}
+
+.centrados {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-100%, -90%);
+  font-size: 44px;
+  border-bottom: 1px solid #fff;
+}
