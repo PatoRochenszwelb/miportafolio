@@ -13,21 +13,28 @@ body {
   font-weight: 400;
 }
 
+/* Utilidades */
+.bg-purple {
+  background: var(--ColorPurple)!important;
+}
+
 /* Header */
 .site-header nav a.navbar-brand {
   font-size: 40px;
+  font-family: var(--fuentePrincipal);
+}
+nav a {
+  font-family: var(--fuenteSecundaria);
+  font-size: 20px;
 }
 
 /* Hero */
-
 #yo-soy {
   height: 893px;
 }
 p.titulo-yo {
   font-size: 50px;
-
 }
-
 .hero-image {
     background-position: center;
     background-repeat: no-repeat;
@@ -35,32 +42,31 @@ p.titulo-yo {
     position: relative;
     height: 737px
   }
-  
-  /* Place text in the middle of the image */
-  .hero-text {
-    color: white;
-  }
 
 /* Sobre Mi */
-
 #sobre-mi {
 padding-left: 200px;
 padding-right: 200px;
 }
-
 #sobre-mi h2 {
   font-size: 25px;
   line-height: 50px;
 }
-
 #sobre-mi p {
   font-family: var(--fuenteSecundaria);
   font-weight: 200;
   line-height: 40px;
 }
+h3.experiencia-text,
+h4.experiencia-sub {
+  font-family: var(--fuenteSecundaria) !important;
+  font-size: 25px;
+}
 
-.bg-purple {
-    background: var(--ColorPurple)!important;
+/* Mis Ultimos Trabajos */
+
+#mis-ultimos-trabajos p.bajada-trabajo {
+  font-family: var(--fuenteSecundaria);
 }
 
 
@@ -80,7 +86,7 @@ padding-right: 200px;
 }
 
 .iconos i {
-  color: #660066;
+  color: var(--ColorPurple);
 }
 
 .icons-footer i {
