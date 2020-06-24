@@ -74,8 +74,6 @@ h4.experiencia-sub {
 .separador {
     border-bottom: 2px solid #000;
     width: 100px;
-    display: flex;
-    justify-content: center;
 }
 
 .separadora {
@@ -119,4 +117,39 @@ h4.experiencia-sub {
   transform: translate(-100%, -90%);
   font-size: 44px;
   border-bottom: 1px solid #fff;
+}
+
+
+h1.bottom-align-text {
+    position: absolute;
+    bottom: 100px;
+    right: 27%;
+    font-size: 72px;
+    line-height: 65px;
+}
+p.bottom-align-text {
+  position: absolute;
+  bottom: 10px;
+  right: 10%;
+  font-size: 72px;
+  line-height: 70px;
+  border-top: 2px solid #fff;
+}
+
+@media only screen and (min-width:1000px ) {
+  h1.bottom-align-text {
+    position: absolute;
+    bottom: 100px;
+    right: 40%;
+
+    margin-bottom: 30px;
+    
+  }
+  p.bottom-align-text {
+    position: absolute;
+    bottom: 10px;
+    right: 35%;
+
+    margin-bottom: 30px;
+  }
 }
